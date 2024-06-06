@@ -28,14 +28,14 @@
 # gt_file: data/datasets/GTA_V_DATASET/ground_truth/realID_hard_sur.txt
 # gt_map_file: data/datasets/GTA_V_DATASET/ground_truth/gt_map.txt
 ###########################################################
-dt_name: YOLO_Classic
-nms: 0.45
-conf: 0.5
-class_file: data/modules/yolo_classic/coco.names
-model_cfg_file: data/modules/yolo_classic/yolov4.cfg
-model_weights: data/modules/yolo_classic/yolov4.weights
-model_image_size: 416
-repspoint_calibration: 0.25
+#dt_name: YOLO_Ultralytics
+# nms: 0.45
+# conf: 0.5
+# class_file: data/modules/yolo_c/coco.names
+# model_cfg_file: data/modules/yolo_ultralytics/yolov4.cfg
+# model_weights: data/modules/yolo_classic/yolov4.weights
+# model_image_size: 416
+# repspoint_calibration: 0.25
 ---
 dt_name: YOLO_Ultralytics
 conf: 0.5
@@ -45,9 +45,9 @@ show_boxes: False
 device: 0
 max_det: 100
 line_width: 500
-model_file: data/modules/yolo_ultralytics/yolov8s-pose.pt
+model_file: E:/reid/pyppbox/pyppbox/data/modules/yolo_ultralytics/yolov8l.pt
 repspoint_calibration: 0.25
----
-dt_name: GT
-gt_file: data/datasets/GTA_V_DATASET/ground_truth/realID_hard_sur.txt
-gt_map_file: data/datasets/GTA_V_DATASET/ground_truth/gt_map.txt
+# ---
+# dt_name: GT
+# gt_file: data/datasets/GTA_V_DATASET/ground_truth/realID_hard_sur.txt
+# gt_map_file: data/datasets/GTA_V_DATASET/ground_truth/gt_map.txt

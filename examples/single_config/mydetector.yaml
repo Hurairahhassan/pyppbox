@@ -6,5 +6,5 @@ show_boxes: False
 device: 0
 max_det: 100
 line_width: 500
-model_file: C:/pyppbox_v3/data/modules/yolo_ultralytics/yolov8s-pose.pt
+model_file: C:/pyppbox_v3/data/modules/yolo_ultralytics/yolov8n.pt
 repspoint_calibration: 0.25

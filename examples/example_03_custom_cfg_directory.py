@@ -11,7 +11,7 @@ from pyppbox.utils.visualizetools import visualizePeople
 # Use a custom config directory "cfg"
 setConfigDir(config_dir="cfg", load_all=True)
 
-input_video = "data/gta.mp4"
+input_video = "E:/reid/pyppbox/pyppbox/demo_detection2(m).mp4"
 cap = cv2.VideoCapture(input_video)
 
 while cap.isOpened():
@@ -45,4 +45,6 @@ while cap.isOpened():
     else:
         break
 cap.release()
+
+
 

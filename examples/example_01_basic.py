@@ -9,10 +9,10 @@ from pyppbox.standalone import (setMainDetector, detectPeople,
 from pyppbox.utils.visualizetools import visualizePeople
 
 
-image = "data/gta.jpg"
+image = "data/frame_0726.jpg"
 
 # Detect people and save as visualized image detection_output.jpg using YOLO Classic
-setMainDetector("YOLO_Classic") # Set by name using internal configs
+setMainDetector("YOLO_Ultralytics") # Set by name using internal configs
 detected_people, visual_image = detectPeople(
     img=image, # Give an image to detect people
     visual=True, # Set True to visualize the detected people
